@@ -19,21 +19,54 @@
 <body>
 
     <!-- Header with title and navigation -->
-
+    <header>
+        <h1>My Awesome Webpage</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
     <!-- Main content -->
+     <section class="main">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <div class="container mt-2">
+        <div class="row ">
         <!-- Article Section -->
-        
-            
+        <article class="col-md-8 p-3">
+            <h2><b>Welcome to My Blog</b></h2>
+             <p>This is an important announcement <mark>Our website is now live</mark></p>
             <!-- Figure with an image and caption -->
-
+            <figure >
+                <img src="https://picsum.photos/200" alt="Sky black and white"/>
+                <figcaption>A random image from piscum</figcaption>
+            </figure>
 
             <!-- Collapsible FAQ using details & summary -->
-            
-
+            <details>
+                <summary>What is this website about?</summary>
+                <p>This website is simple example of using semantic HTML elements</p>
+            </details>
+        </article>
         <!-- Sidebar (Aside) -->
-
+                <aside class="col-md-4 p-3">
+                    <h3>Related Links</h3>
+                    <ul class="nav flex-column">
+                        <li><a href="#HTML Basics"><u>HTML Basics</u></a></li>
+                        <li><a href="#CSS Guide"><u>CSS Guide</u></a></li>
+                        <li><a href="#Web Development Tips"><u>Web Development Tips</u></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
     <!-- Footer with time -->
-
+    <footer>
+        <p>
+            &copy; 2025 My Website
+            <br>Last updated on June 11, 2025
+        </p>
+    </footer>
 </body>
 </html>
